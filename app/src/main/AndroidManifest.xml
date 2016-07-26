@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".basictransition.BasicTransitions"></activity>
         <activity android:name=".basictransition.DelayTransitions"></activity>
+        <activity android:name=".basictransition.CustomTransition"></activity>
     </application>
 
 </manifest>

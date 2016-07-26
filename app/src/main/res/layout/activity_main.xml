@@ -26,6 +26,11 @@
             android:id="@+id/delay_transition"
             style="@style/Main_Button"
             android:text="延迟过渡动画" />
+
+        <Button
+            android:id="@+id/custom_transition"
+            style="@style/Main_Button"
+            android:text="自定义Transition" />
         
     </LinearLayout>
 </ScrollView>

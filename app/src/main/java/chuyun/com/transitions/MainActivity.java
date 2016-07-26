@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import chuyun.com.transitions.basictransition.BasicTransitions;
+import chuyun.com.transitions.basictransition.CustomTransition;
 import chuyun.com.transitions.basictransition.DelayTransitions;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
@@ -31,6 +32,9 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 break;
             case R.id.delay_transition:
                 startActivity(new Intent(MainActivity.this, DelayTransitions.class));
+                break;
+            case R.id.custom_transition:
+                startActivity(new Intent(MainActivity.this, CustomTransition.class));
                 break;
         }
     }
