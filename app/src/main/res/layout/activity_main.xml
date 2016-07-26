@@ -10,17 +10,22 @@
     tools:context="chuyun.com.transitions.MainActivity">
 
     <LinearLayout
+        android:id="@+id/contianer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:id="@+id/contianer"
         >
-        
+
         <Button
-            style="@style/Main_Button"
             android:id="@+id/basic_transition"
+            style="@style/Main_Button"
             android:text="过渡动画基础"
             />
+
+        <Button
+            android:id="@+id/delay_transition"
+            style="@style/Main_Button"
+            android:text="延迟过渡动画" />
         
     </LinearLayout>
 </ScrollView>

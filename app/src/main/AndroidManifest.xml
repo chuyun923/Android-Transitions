@@ -16,6 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".basictransition.BasicTransitions"></activity>
+        <activity android:name=".basictransition.DelayTransitions"></activity>
     </application>
 
 </manifest>

@@ -1,14 +1,14 @@
 package chuyun.com.transitions;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
 
 import chuyun.com.transitions.basictransition.BasicTransitions;
+import chuyun.com.transitions.basictransition.DelayTransitions;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
+public class MainActivity extends BaseActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +28,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()) {
             case R.id.basic_transition:
                 startActivity(new Intent(MainActivity.this, BasicTransitions.class));
+                break;
+            case R.id.delay_transition:
+                startActivity(new Intent(MainActivity.this, DelayTransitions.class));
                 break;
         }
     }
