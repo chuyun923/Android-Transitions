@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Transitions</string>
+    <string name="title_activity_view_overlay">ViewOverlayActivity</string>
 </resources>

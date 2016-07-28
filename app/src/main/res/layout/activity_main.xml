@@ -31,6 +31,11 @@
             android:id="@+id/custom_transition"
             style="@style/Main_Button"
             android:text="自定义Transition" />
+
+        <Button
+            android:id="@+id/view_overlay"
+            style="@style/Main_Button"
+            android:text="ViewOverlay" />
         
     </LinearLayout>
 </ScrollView>
