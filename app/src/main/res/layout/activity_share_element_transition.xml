@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8833b5e5"
+    android:fitsSystemWindows="true"
+    tools:context="chuyun.com.transitions.pagetransition.ContentTransition">
+
+    <View
+        android:id="@+id/back"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark"
+        android:transitionName="share" />
+</FrameLayout>

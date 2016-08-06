@@ -36,6 +36,24 @@
             android:id="@+id/view_overlay"
             style="@style/Main_Button"
             android:text="ViewOverlay" />
+
+        <Button
+            android:id="@+id/overridePendingTransition"
+            style="@style/Main_Button"
+            android:text="OverridePendingTransition(低于21)" />
+
+        <Button
+            android:id="@+id/content_Transition"
+            style="@style/Main_Button"
+            android:text="页面内容过渡动画" />
+
+        <View
+            android:id="@+id/share_Transition"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:background="@android:color/holo_red_dark"
+            android:transitionName="share" />
         
     </LinearLayout>
 </ScrollView>

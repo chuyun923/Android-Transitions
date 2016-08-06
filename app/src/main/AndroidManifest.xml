@@ -21,7 +21,21 @@
         <activity
             android:name=".basictransition.ViewOverlayActivity"
             android:label="@string/title_activity_view_overlay"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OverridePendingTransition"
+            android:label="@string/title_activity_override_pending_transition"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".pagetransition.ContentTransition"
+            android:label="@string/title_activity_content_transition"
+            android:parentActivityName=".BaseActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="chuyun.com.transitions.BaseActivity" />
+        </activity>
+        <activity android:name=".pagetransition.ShareElementTransition"></activity>
     </application>
 
 </manifest>
